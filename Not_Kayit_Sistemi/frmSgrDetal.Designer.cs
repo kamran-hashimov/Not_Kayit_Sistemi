@@ -175,7 +175,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(235, 263);
+            this.ClientSize = new System.Drawing.Size(262, 263);
             this.Controls.Add(this.lblDurum);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.lblOrtalama);
@@ -194,6 +194,7 @@
             this.Name = "frmSgrDetal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSgrDetal";
+            this.Load += new System.EventHandler(this.frmSgrDetal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

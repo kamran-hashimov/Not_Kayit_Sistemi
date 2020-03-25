@@ -37,7 +37,14 @@ namespace Not_Kayit_Sistemi
                 lblS2.Text = dr[5].ToString();
                 lblS3.Text = dr[6].ToString();
                 lblOrtalama.Text = dr[7].ToString();
-                lblDurum.Text = dr[8].ToString();
+                if (dr[8].ToString()=="True")
+                {
+                    lblDurum.Text = "Kecib";
+                }
+                else
+                {
+                    lblDurum.Text = "Kesilib";
+                }
             }
         }
     }

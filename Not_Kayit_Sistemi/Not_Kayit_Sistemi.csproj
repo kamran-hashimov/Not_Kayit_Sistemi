@@ -46,6 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbNotKayitDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbNotKayitDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DbNotKayitDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbNotKayitDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DbNotKayitDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbNotKayitDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +100,39 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DbNotKayitDataSet.xsc">
+      <DependentUpon>DbNotKayitDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DbNotKayitDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DbNotKayitDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DbNotKayitDataSet.xss">
+      <DependentUpon>DbNotKayitDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DbNotKayitDataSet1.xsc">
+      <DependentUpon>DbNotKayitDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DbNotKayitDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DbNotKayitDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DbNotKayitDataSet1.xss">
+      <DependentUpon>DbNotKayitDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DbNotKayitDataSet2.xsc">
+      <DependentUpon>DbNotKayitDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DbNotKayitDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DbNotKayitDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DbNotKayitDataSet2.xss">
+      <DependentUpon>DbNotKayitDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
